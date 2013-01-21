@@ -1,0 +1,7 @@
+Options +FollowSymLinks
+ 
+RewriteEngine on
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ index.php?requrl=%{REQUEST_URI}&%{QUERY_STRING} [L,NC,QSA]

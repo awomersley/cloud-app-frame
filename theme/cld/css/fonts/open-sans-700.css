@@ -1,0 +1,8 @@
+@media screen {
+	@font-face {
+	  font-family: 'Open Sans';
+	  font-style: normal;
+	  font-weight: 700;
+	  src: local('Open Sans'), local('OpenSans'), url('/theme/font/open-sans-700.woff') format('woff'), url('/theme/font/open-sans-700.ttf') format('ttf');
+	}
+}

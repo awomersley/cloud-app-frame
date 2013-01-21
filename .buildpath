@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<buildpath>
+	<buildpathentry kind="src" path="app/controller"/>
+	<buildpathentry kind="src" path="config"/>
+	<buildpathentry kind="src" path="lib/cld"/>
+	<buildpathentry kind="src" path="theme/cld/modules/clide/editor"/>
+	<buildpathentry kind="src" path="theme/cld/modules/clide/editor-holder"/>
+	<buildpathentry kind="src" path="theme/cld/modules/clide/files"/>
+	<buildpathentry kind="src" path="theme/cld/modules/clide/files-list"/>
+	<buildpathentry kind="src" path="theme/cld/modules/clide/sites"/>
+	<buildpathentry kind="src" path="theme/cld/modules/template/footer"/>
+	<buildpathentry kind="src" path="theme/cld/modules/template/head"/>
+	<buildpathentry kind="src" path="theme/cld/modules/template/header"/>
+	<buildpathentry kind="src" path="theme/cld/tmpl"/>
+	<buildpathentry kind="src" path="tmp/cache"/>
+	<buildpathentry kind="src" path="www"/>
+	<buildpathentry kind="con" path="org.eclipse.php.core.LANGUAGE"/>
+</buildpath>

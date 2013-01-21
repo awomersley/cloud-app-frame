@@ -1,0 +1,4 @@
+body{ background:none; }
+#content{ width:100%; height:100%; position:absolute; top:0; left:0; padding:0; }
+#content #col1{ width:100%; height:100%; background:none; }
+#content #col2, #content #col3{ display:none; }
