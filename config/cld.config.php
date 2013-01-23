@@ -4,7 +4,7 @@ $config=array(
 	
 	'Cld'=>array(
 		'name'=>'Cld',
-		'url'=>'http://cld.aw1.me/'
+		'url'=>'http://cloud-app-frame.aw1.me/'
 	),
 	
 	'Env'=>array(

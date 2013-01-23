@@ -1,1 +1,1 @@
-<?=$this->Var['head'];?>
+<?=$VAR_CLD_head;?>

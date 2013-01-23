@@ -9,17 +9,9 @@ class Controller_Ajax extends Cld_Controller{
 		
 	}
 	
-	public function ScanDir(){
+	public function Foobar(){
 		
-		$sites=Config('sites');
-		
-		$Ftp=Cld::FileManager();
-				
-		$site=$Ftp->SetPath($sites[Cld::Request()->site]);
-		
-		$this->SetVar('filelist',$Ftp->Scan($site,Cld::Request()->path,false));
-		
-		$this->_Output->SetHook('ajax','clide/files-list');
+		$this->_Output->SetHook('ajax','');
 		
 	}
 	

@@ -12,8 +12,7 @@ $CldClass=array(
 				array('alias'=>'/*/*$', 'route'=>'/*1/*2/index'),
 				array('alias'=>'/theme/*/*', 'route'=>'/display/theme/*1/*2'),
 				array('alias'=>'/lib/*/*', 'route'=>'/display/lib/*1/*2'),
-				array('alias'=>'/res/*', 'route'=>'/display/cache/*1'),
-				array('alias'=>'/download/get/*', 'route'=>'/cldfiles/download/get/*1')
+				array('alias'=>'/res/*', 'route'=>'/display/cache/*1')
 			)
 		)
 	),

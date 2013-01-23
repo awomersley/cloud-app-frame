@@ -92,10 +92,13 @@ class Cld_Controller{
 		$this->_Output->Render();
 		
 		$this->SetHeader('type',MimeType($this->File));
-		$this->SetEncoding();
+		//$this->SetEncoding();
 		$this->SendHeaders();
  		ob_clean();
 		
+        echo $this->File;
+        
+        /*
 		if($this->_Output->HTML){
 			
 			if(function_exists($this->Encoding['function'])) echo call_user_func($this->Encoding['function'],$this->_Output->HTML);
@@ -105,7 +108,7 @@ class Cld_Controller{
 			
 			readfile($this->File.$this->Encoding['ext']);
 			
-		}
+		}*/
 
 	}
 	

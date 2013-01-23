@@ -1,52 +1,12 @@
 /**
- * Cloud Dir - Copy files from the web to your own personal cloud directory
+ * Cloud-App-Frame
+ * An MVC framework for creating cloud based web apps
  * Copyright (C) 2012  Andrew Womersley - aw1.me
  * 
- * Cloud Dir is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- * 
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details.
- * 
- * You should have received a copy of the GNU General Public License
- * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */	
  
-Cloud Dir
-- Copy file from around the web to your own personal web directory
+ToDo
 
-Features
-- Copy large files while on the move
-- File transfer status
-- Your directory is easy to browse with download and delete options
-- Password protected keeping your files safe
-- Download links are encryptred hashes, files will only download if you are logged in
-- Mobile compatible
-- Dev mode for easy debugging if altering code
-
-To Do List
-- Download a whole folder as a zip file
-- Encode files
-- Better directory selection for copy
-- Please get in touch for any other suggestions
-
-Requirements
-- Web server with access below public directory
-- PHP 5.2+
-- HTML5 browser (latest webkit)
-
-Install/Upgrade Instructions
-- Copy all files from Git to your webserver either by "git clone git://github.com/andemedia/cloud-dir.git" or FTP
-- Set the apache virtual host document root to 'www'.
-- If first install, rename settings.json.rename to settings.json
-- Ensure tmp/cache, tmp/logs, files, settings.json are writeable by the webserver
-- Default password for login is 1234
-- Update your password and hash key in settings
-
-About
-- This project, along with other cloud apps is done as a proof of concept and as a tool to fill a personal need. Pull requests will not be accepted as i need to keep this all my own work, feature requests are accepted. Full cross browser testing has not been done, these apps will work on latest webkit browsers (chrome/safari), but not in IE6.
-- Why all Public methods/properties? Simple answer, why not? This code is not intended for multi user use with class extensions and modules hanging of it. Although open source, the integration of the code is very much closed and secure, declaring a method as private/protected isn't going to change anything. Leaving everything public makes it easier for any future developments as classes are not restricted. 
+- output and encoding
+- caching
+- configs

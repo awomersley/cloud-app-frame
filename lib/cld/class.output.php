@@ -101,14 +101,14 @@ class Cld_Output{
 		}
 		
 		
-		/* set js/css files*/
+		/** Set js/css files */
 		$this->_Head->AddJs($this->_Res->Set('js'));
 		$this->_Head->AddCss($this->_Res->Set('css'));
 		
-		/* set cld vars*/
-		$output=str_replace('{{cld.head}}',$this->_Head->Render(),$output);
-		$output=str_replace('{{cld.debug}}',ob_get_clean(),$output);
-		
+		/** Set cld vars */
+		$this->SetVar('CLD_head',$this->_Head->Render());
+        $this->SetVar('CLD_debug',ob_get_clean());
+        
 		
 		$this->_Cache->BuildFile($this->TemplateFile,$output,false);
 	
@@ -133,7 +133,7 @@ class Cld_Output{
 		$html=ob_get_clean();
 		
 		/* atempts to save file in cache - sets HTML if not */
-		if(!$this->_Cache->BuildFile(Config('Route.file'),$html)) $this->HTML=$html;
+		if($this->_Cache->BuildFile(Config('Route.file'),$html)) $this->HTML=$html;
 		
 	}
 	

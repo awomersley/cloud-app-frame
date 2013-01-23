@@ -1,0 +1,1 @@
+<?=$VAR_CLD_debug;?>
